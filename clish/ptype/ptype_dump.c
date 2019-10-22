@@ -17,7 +17,7 @@ void clish_ptype_dump(clish_ptype_t * this)
 	lub_dump_printf("method     : %s\n",
 		clish_ptype__get_method_name(this->method));
 	lub_dump_printf("postprocess: %s\n",
-		clish_ptype_preprocess__get_name(this->preprocess));
+		clish_ptype__get_preprocess_name(this->preprocess));
 	lub_dump_undent();
 }
 
